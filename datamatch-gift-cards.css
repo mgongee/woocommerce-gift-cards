@@ -1,0 +1,12 @@
+.dtm-input-text {
+	height: 33px;
+	border: 1px solid #d3ced2;
+	padding: 6px 6px 5px;
+	margin: 0 4px 0 10px;
+	outline: 0;
+	line-height: 1;
+}
+
+.dtm-card {
+	text-align: right;
+}
