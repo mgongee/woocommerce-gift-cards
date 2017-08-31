@@ -2,8 +2,8 @@
 /**
  *
  * Plugin Name:       Datamatch Gift Cards
- * Description:       Custom plugin to utilize Datamatch gift API to give discounts on Woocommerce purchases
- * Version:           0.9
+ * Description:       Custom plugin to utilize Datamatch gift API to give discounts on Woocommerce purchases. After plugin activation, don't forget to go to "Settings -> Datamatch Gift Cards" and enter API key and decide whether to show gift card form or not. 
+ * Version:           1.0
  * Author:            mgongee
  * Author URI:        http://jatwps.net
  * Text Domain:       woo-gift-cards
