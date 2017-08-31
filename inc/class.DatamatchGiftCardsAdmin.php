@@ -93,10 +93,10 @@ class DatamatchGiftCardsAdmin extends DatamatchGiftCards {
 	public function showGiftCardForm() {	
 			do_action( 'dtm_before_cart_form' );
 			?>
-			<div class="giftcard" style="float: left;">
+			<div class="giftcard" style="float: left; padding-top: 10px;">
 				<label type="text" for="giftcard_code" style="display: none;"><?php _e( 'Giftcard', 'dtm_gift_cards' ); ?>:</label>
-				<input type="text" name="giftcard_code" class="dtm-input-text" id="giftcard_code" value="" placeholder="<?php _e( 'Gift Card', 'dtm_gift_cards' ); ?>" />
-				<input type="submit" class="button" name="update_cart" value="<?php _e( 'Apply Gift card', 'dtm_gift_cards' ); ?>" />
+				<input type="text" name="giftcard_code" class="dtm-input-text input-text" id="giftcard_code" value="" placeholder="<?php _e( 'Gift Card', 'dtm_gift_cards' ); ?>" />
+				<input type="submit" class="button" name="apply_gift_card" value="<?php _e( 'Apply Gift card', 'dtm_gift_cards' ); ?>" />
 			</div>
 		<?php
 			do_action( 'dtm_after_cart_form' );
